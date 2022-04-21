@@ -1,4 +1,4 @@
-[![Go Report Card](https://goreportcard.com/badge/github.com/sentrionic/Valkyrie)](https://goreportcard.com/report/github.com/sentrionic/Valkyrie)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kakarot-dev/restila)](https://goreportcard.com/report/github.com/kakarot-dev/restila)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cd1667ed-3257-41d0-82ca-7b34de655339/deploy-status)](https://app.netlify.com/sites/valkyrie-app/deploys)
 
 # Valkyrie
@@ -16,7 +16,7 @@ A [Discord](https://discord.com) clone using [React](https://reactjs.org/) and [
 - File Upload is disabled.
 - The design does not fully match current Discord anymore.
 - Data regularly gets wiped, so you can use any valid email and password.
-- For the old [Socket.io](https://socket.io/) stack using [NestJS](https://nestjs.com/) check out the [v1](https://github.com/sentrionic/Valkyrie/tree/v1) branch.
+- For the old [Socket.io](https://socket.io/) stack using [NestJS](https://nestjs.com/) check out the [v1](https://github.com/kakarot-dev/restila/tree/v1) branch.
 
 ## Video
 
@@ -55,7 +55,7 @@ https://user-images.githubusercontent.com/38354571/137365365-a7fe91d6-51d7-4739-
 - [Typescript](https://www.typescriptlang.org/)
 - Hosted on [Netlify](https://www.netlify.com/)
 
-For the mobile app using Flutter check out [ValkyrieApp](https://github.com/sentrionic/ValkyrieApp)
+For the mobile app using Flutter check out [ValkyrieApp](https://github.com/kakarot-dev/restilaApp)
 
 ---
 
@@ -90,9 +90,9 @@ or alternatively copy the commands into your CLI.
         GMAIL_USER=GMAIL_USER
         GMAIL_PASSWORD=GMAIL_PASSWORD
 
-5. Run `go run github.com/sentrionic/valkyrie` to run the server
+5. Run `go run github.com/kakarot-dev/restila` to run the server
 
-**Alternatively**: If you only want to run the backend without installing Golang and all dependencies, you can download the pre compiled server from the [Release tab](https://github.com/sentrionic/Valkyrie/releases) instead. You will still need to follow the above steps 1, 2 and 4.
+**Alternatively**: If you only want to run the backend without installing Golang and all dependencies, you can download the pre compiled server from the [Release tab](https://github.com/kakarot-dev/restila/releases) instead. You will still need to follow the above steps 1, 2 and 4.
 
 ### Web
 
@@ -119,7 +119,7 @@ Function calls in the `service` directory that do not just delegate work to the 
 Run `go test -v -cover ./service/... ./handler/...` (`make test`) to run all tests
 
 Additionally this repository includes E2E tests for all successful requests. To run them you
-have to have Postgres and Redis running in Docker and then run `go test github.com/sentrionic/valkyrie` (`make e2e`).
+have to have Postgres and Redis running in Docker and then run `go test github.com/kakarot-dev/restila` (`make e2e`).
 
 ### Web
 

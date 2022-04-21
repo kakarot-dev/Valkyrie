@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	gonanoid "github.com/matoous/go-nanoid"
-	"github.com/sentrionic/valkyrie/model"
+	"github.com/kakarot-dev/restila/model"
 )
 
 // GuildService acts as a struct for injecting an implementation of GuildRepository

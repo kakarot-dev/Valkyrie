@@ -2,7 +2,7 @@ package service
 
 import (
 	"github.com/bwmarrin/snowflake"
-	"github.com/sentrionic/valkyrie/model/apperrors"
+	"github.com/kakarot-dev/restila/model/apperrors"
 	"log"
 )
 

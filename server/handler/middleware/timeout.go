@@ -10,7 +10,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/sentrionic/valkyrie/model/apperrors"
+	"github.com/kakarot-dev/restila/model/apperrors"
 	"net/http"
 	"sync"
 	"time"

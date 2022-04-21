@@ -20,7 +20,7 @@ test:
 	go test -v -cover ./service/... ./handler/...
 
 e2e:
-	go test github.com/sentrionic/valkyrie
+	go test github.com/kakarot-dev/restila
 
 lint:
 	golangci-lint run
@@ -29,7 +29,7 @@ mock:
 	mockery --all
 
 build:
-	go build github.com/sentrionic/valkyrie
+	go build github.com/kakarot-dev/restila
 
 fmt:
 	go fmt github.com/sentrionic/...

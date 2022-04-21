@@ -3,7 +3,7 @@ package ws
 import (
 	"context"
 	"github.com/go-redis/redis/v8"
-	"github.com/sentrionic/valkyrie/model"
+	"github.com/kakarot-dev/restila/model"
 	"log"
 )
 

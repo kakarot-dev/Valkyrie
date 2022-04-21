@@ -1,7 +1,7 @@
 package fixture
 
 import (
-	"github.com/sentrionic/valkyrie/model"
+	"github.com/kakarot-dev/restila/model"
 	"time"
 )
 

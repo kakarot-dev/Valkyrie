@@ -2,8 +2,8 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/sentrionic/valkyrie/model"
-	"github.com/sentrionic/valkyrie/model/apperrors"
+	"github.com/kakarot-dev/restila/model"
+	"github.com/kakarot-dev/restila/model/apperrors"
 	"log"
 	"net/http"
 )

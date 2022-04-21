@@ -2,10 +2,10 @@ package service
 
 import (
 	"context"
-	"github.com/sentrionic/valkyrie/mocks"
-	"github.com/sentrionic/valkyrie/model"
-	"github.com/sentrionic/valkyrie/model/apperrors"
-	"github.com/sentrionic/valkyrie/model/fixture"
+	"github.com/kakarot-dev/restila/mocks"
+	"github.com/kakarot-dev/restila/model"
+	"github.com/kakarot-dev/restila/model/apperrors"
+	"github.com/kakarot-dev/restila/model/fixture"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"testing"

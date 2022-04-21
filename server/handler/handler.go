@@ -8,10 +8,10 @@ import (
 	"net/http"
 
 	// Register swagger docs
-	_ "github.com/sentrionic/valkyrie/docs"
-	"github.com/sentrionic/valkyrie/handler/middleware"
-	"github.com/sentrionic/valkyrie/model"
-	"github.com/sentrionic/valkyrie/model/apperrors"
+	_ "github.com/kakarot-dev/restila/docs"
+	"github.com/kakarot-dev/restila/handler/middleware"
+	"github.com/kakarot-dev/restila/model"
+	"github.com/kakarot-dev/restila/model/apperrors"
 	"github.com/swaggo/files"       // swagger embed files
 	"github.com/swaggo/gin-swagger" // gin-swagger middleware
 	"time"

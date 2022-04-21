@@ -23,7 +23,7 @@ const links = [
   {
     icon: AiOutlineGithub,
     label: 'GitHub',
-    href: 'https://github.com/sentrionic/Valkyrie',
+    href: 'https://github.com/kakarot-dev/restila',
   },
   {
     icon: AiOutlineApi,

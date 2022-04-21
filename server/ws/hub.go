@@ -2,7 +2,7 @@ package ws
 
 import (
 	"github.com/go-redis/redis/v8"
-	"github.com/sentrionic/valkyrie/model"
+	"github.com/kakarot-dev/restila/model"
 )
 
 // Hub contains all rooms and clients

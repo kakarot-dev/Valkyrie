@@ -3,7 +3,7 @@ package service
 import (
 	"fmt"
 	gonanoid "github.com/matoous/go-nanoid"
-	"github.com/sentrionic/valkyrie/model"
+	"github.com/kakarot-dev/restila/model"
 	"log"
 	"mime/multipart"
 	"path"

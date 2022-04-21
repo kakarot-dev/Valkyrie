@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"github.com/go-redis/redis/v8"
 	gonanoid "github.com/matoous/go-nanoid/v2"
-	"github.com/sentrionic/valkyrie/model"
-	"github.com/sentrionic/valkyrie/model/apperrors"
+	"github.com/kakarot-dev/restila/model"
+	"github.com/kakarot-dev/restila/model/apperrors"
 	"log"
 	"time"
 )

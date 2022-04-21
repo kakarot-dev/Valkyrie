@@ -3,7 +3,7 @@ package ws
 import (
 	"encoding/json"
 	"github.com/gin-gonic/gin"
-	"github.com/sentrionic/valkyrie/model"
+	"github.com/kakarot-dev/restila/model"
 	"log"
 	"net/http"
 	"time"

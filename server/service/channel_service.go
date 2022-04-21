@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/sentrionic/valkyrie/model"
-	"github.com/sentrionic/valkyrie/model/apperrors"
+	"github.com/kakarot-dev/restila/model"
+	"github.com/kakarot-dev/restila/model/apperrors"
 )
 
 // channelService acts as a struct for injecting an implementation of ChannelRepository

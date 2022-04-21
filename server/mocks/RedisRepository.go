@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	model "github.com/sentrionic/valkyrie/model"
+	model "github.com/kakarot-dev/restila/model"
 	mock "github.com/stretchr/testify/mock"
 )
 

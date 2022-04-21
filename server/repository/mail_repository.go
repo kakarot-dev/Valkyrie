@@ -2,7 +2,7 @@ package repository
 
 import (
 	"fmt"
-	"github.com/sentrionic/valkyrie/model"
+	"github.com/kakarot-dev/restila/model"
 	"net/smtp"
 )
 

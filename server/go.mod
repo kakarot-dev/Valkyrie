@@ -1,4 +1,4 @@
-module github.com/sentrionic/valkyrie
+module github.com/kakarot-dev/restila
 
 go 1.18
 

@@ -3,7 +3,7 @@ package middleware
 import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/sentrionic/valkyrie/model/apperrors"
+	"github.com/kakarot-dev/restila/model/apperrors"
 	"log"
 )
 

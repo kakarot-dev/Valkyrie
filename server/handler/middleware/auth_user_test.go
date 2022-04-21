@@ -3,8 +3,8 @@ package middleware
 import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
-	"github.com/sentrionic/valkyrie/model"
-	"github.com/sentrionic/valkyrie/service"
+	"github.com/kakarot-dev/restila/model"
+	"github.com/kakarot-dev/restila/service"
 	"net/http"
 	"net/http/httptest"
 	"testing"

@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/go-redis/redis/v8"
-	"github.com/sentrionic/valkyrie/model"
+	"github.com/kakarot-dev/restila/model"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"log"

@@ -3,8 +3,8 @@ package repository
 import (
 	"database/sql"
 	"errors"
-	"github.com/sentrionic/valkyrie/model"
-	"github.com/sentrionic/valkyrie/model/apperrors"
+	"github.com/kakarot-dev/restila/model"
+	"github.com/kakarot-dev/restila/model/apperrors"
 	"gorm.io/gorm"
 	"log"
 	"regexp"

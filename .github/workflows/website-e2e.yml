@@ -40,7 +40,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Server
-        run: go run github.com/sentrionic/valkyrie &
+        run: go run github.com/kakarot-dev/restila &
         working-directory: ./server
         env:
           DATABASE_URL: postgresql://root:secret@localhost:5432/valkyrie?sslmode=disable

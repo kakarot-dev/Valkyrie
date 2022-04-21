@@ -2,8 +2,8 @@ package service
 
 import (
 	"encoding/json"
-	"github.com/sentrionic/valkyrie/model"
-	"github.com/sentrionic/valkyrie/ws"
+	"github.com/kakarot-dev/restila/model"
+	"github.com/kakarot-dev/restila/ws"
 	"log"
 )
 

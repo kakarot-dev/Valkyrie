@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/sentrionic/valkyrie/model"
+	"github.com/kakarot-dev/restila/model"
 )
 
 // friendService acts as a struct for injecting an implementation of UserRepository

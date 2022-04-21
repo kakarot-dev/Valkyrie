@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/sentrionic/valkyrie/model/fixture"
+	"github.com/kakarot-dev/restila/model/fixture"
 	"testing"
 
 	"github.com/stretchr/testify/require"
